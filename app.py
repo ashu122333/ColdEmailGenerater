@@ -70,7 +70,7 @@ else:
 st.markdown("---")  # Adds a horizontal line
 st.markdown("---")  # Adds a horizontal line
 
-
+st.header("About the Project")
 st.image("resources/Screenshot 2024-11-17 144308.png", caption="Project Flow Chart", width=700)
 col1, col2, col3 = st.columns(3)
 
@@ -86,7 +86,7 @@ with col3:
 
 
 
-st.header("About the Project")
+
 st.write("""
 This project is a **Cold Email Generator** that automates the process of creating professional and targeted emails for job providers. It leverages cutting-edge technologies like **LangChain**, **Groq Cloud**, and **Pinecone** to achieve the following workflow:
 
