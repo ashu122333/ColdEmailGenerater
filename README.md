@@ -22,7 +22,7 @@ The **Cold Email Generator** is a tool designed to automate the process of creat
 - **LangChain**: For web scraping job information from job portals.
 - **Groq API**: 
   - To extract job information and generate emails using `Llama-3.2-90B-text-preview`.
-- **Hugging Face Inference**: To generate embeddings for candidate profiles.
+- **Hugging Face Inference**: To generate embeddings for candidate profiles using `e5-small-v2`.
 - **Pinecone**: To store and query embeddings for matching candidates.
 - **Streamlit**: To create an interactive and user-friendly interface.
 
