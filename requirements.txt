@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-groq
+langchain_community
+beautifulsoup4
+pandas
+pinecone
+pinecone-client
+playwright
+chromadb
