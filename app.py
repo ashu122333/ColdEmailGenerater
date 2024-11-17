@@ -71,17 +71,17 @@ st.markdown("---")  # Adds a horizontal line
 st.markdown("---")  # Adds a horizontal line
 
 
-st.image("resources\Screenshot 2024-11-17 144308.png", caption="Project Flow Chart", width=700)
+st.image("resources/Screenshot 2024-11-17 144308.png", caption="Project Flow Chart", width=700)
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image("resources\groqcloud.webp", caption="groq cloud", use_column_width=True)
+    st.image("resources/groqcloud.webp", caption="groq cloud", use_column_width=True)
 
 with col2:
-    st.image("resources\langchian.png", caption="lang chain", use_column_width=True)
+    st.image("resources/langchian.png", caption="lang chain", use_column_width=True)
 
 with col3:
-    st.image("resources\pinecone.png", caption="pinecone", use_column_width=True)
+    st.image("resources/pinecone.png", caption="pinecone", use_column_width=True)
 
 
 
