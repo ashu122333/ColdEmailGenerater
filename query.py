@@ -1,6 +1,6 @@
 # from langchain.vectorstores import Pinecone
 from pinecone import Pinecone,ServerlessSpec
-from llm import e_llm
+# from llm import e_llm
 import os
 import requests
 
