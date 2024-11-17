@@ -1,3 +1,5 @@
+# UNCCOMMENT THIS SECTION TO embed the data , embeddinf and data storing is performed in load.py
+
 # import pandas as pd
 # import os
 # from dotenv import load_dotenv
