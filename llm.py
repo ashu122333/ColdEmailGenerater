@@ -4,15 +4,15 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.exceptions import OutputParserException
 from dotenv import load_dotenv
-import chromadb.utils.embedding_functions 
-# as embedding_functions
+# import chromadb.utils.embedding_functions as embedding_functions
 
+# UNCCOMMENT THIS SECTION TO embed the data , embeddinf and data storing is performed in load.py
 
 load_dotenv()
 
-e_llm=chromadb.utils.embedding_functions.HuggingFaceEmbeddingFunction(
-    api_key=os.getenv("HF_API_KEY"),
-    model_name="ggrn/e5-small-v2")
+# e_llm=chromadb.utils.embedding_functions.HuggingFaceEmbeddingFunction(
+#     api_key=os.getenv("HF_API_KEY"),
+#     model_name="ggrn/e5-small-v2")
 
 llm=ChatGroq(
     model="llama-3.2-90b-text-preview",
