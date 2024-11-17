@@ -5,7 +5,7 @@ from query import query
 
 st.title("Cold Email Generator")
 
-suggestions = ["https://internshala.com/internship/details/work-from-home-web-development-internship-at-algobulls1731667902"]
+suggestions = ["https://internshala.com/internship/details/data-analytics-internship-in-hyderabad-at-palk-street1731649099"]
 url_input=st.text_input("Enter the Job portail website's LINK.")
 
 st.text(f"eg: {suggestions[0]}")
