@@ -4,12 +4,13 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.exceptions import OutputParserException
 from dotenv import load_dotenv
-import chromadb.utils.embedding_functions as embedding_functions
+import chromadb.utils.embedding_functions 
+# as embedding_functions
 
 
 load_dotenv()
 
-e_llm=embedding_functions.HuggingFaceEmbeddingFunction(
+e_llm=chromadb.utils.embedding_functions.HuggingFaceEmbeddingFunction(
     api_key=os.getenv("HF_API_KEY"),
     model_name="ggrn/e5-small-v2")
 
